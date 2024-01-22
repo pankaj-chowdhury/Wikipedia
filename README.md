@@ -1,6 +1,6 @@
 # Wikipedia API Request with Python
 
-This repository contains a Python script that makes use of the `requests` library to fetch information from the Wikipedia API. The script is configured to retrieve content from the "2023_Cricket_World_Cup" Wikipedia page.
+This Python script will fetch **Content** from the "2023_Cricket_World_Cup" Wikipedia page.
 
 ```python
 import requests
@@ -24,9 +24,9 @@ page_extract = page_info["extract"]
 print(f"Title: {page_title}")
 print(f"Extract:\n{page_extract}")
 ```
-# Wikipedia Categories API Request with Python
+# Fetching Wikipedia Categories using Wikipedia API
 
-This repository contains a Python script that utilizes the `requests` library to fetch category information from the Wikipedia API for the "2023_Cricket_World_Cup" page.
+This Python script will fetch **Category Information** using the Wikipedia API for the "2023_Cricket_World_Cup" page.
 
 ```python
 import requests
@@ -48,9 +48,9 @@ category_names = [category["title"] for category in categories]
 
 print(f"Categories: {', '.join(category_names)}")
 ```
-# Wikipedia Pageviews API Request with Python
+# Fetching Wikipedia Pageviews using Wikipedia API
 
-This repository contains a Python script that utilizes the `requests` library to fetch pageview data from the Wikipedia API for the "Lakshadweep" page.
+This Python script will fetch **Pageview** data using the Wikipedia API for the "Lakshadweep" page.
 
 ```python
 import requests
@@ -76,9 +76,9 @@ print("Pageviews:")
 for date, views in page_views.items():
     print(f"{date}: {views}")
 ```
-# Wikipedia Search API Request with Python
+# Fetching Associated Wikipedia Pages using Wikipedia API
 
-This repository contains a Python script that utilizes the `requests` library to perform a search on Wikipedia for pages related to "domestic violence."
+This Python script will be used to perform a **Search** on Wikipedia for pages related to "Domestic Violence"
 
 ```python
 import requests
@@ -101,9 +101,9 @@ for result in search_results:
     print(page_title)
 ```
 
-# Wikipedia Search API Request with Python (Total Hits)
+# Fetching Associated Wikipedia Pages using Wikipedia API (Total Hits)
 
-This repository contains a Python script that utilizes the `requests` library to perform a search on Wikipedia for pages related to "domestic violence" and retrieves the total number of hits.
+This Python script will be used to perform a search on Wikipedia for pages related to "domestic violence" and retrieve the **Total number of Hits**.
 
 ```python
 import requests
