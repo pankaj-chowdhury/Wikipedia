@@ -1,4 +1,4 @@
-# Wikipedia API Request with Python
+# Fetching Contents from a Wikipedia Page using Wikipedia API
 
 This Python script will fetch **Content** from the "2023_Cricket_World_Cup" Wikipedia page.
 
@@ -24,7 +24,7 @@ page_extract = page_info["extract"]
 print(f"Title: {page_title}")
 print(f"Extract:\n{page_extract}")
 ```
-# Fetching Wikipedia Categories using Wikipedia API
+# Fetching Categories of a Wikipedia Page using Wikipedia API
 
 This Python script will fetch **Category Information** using the Wikipedia API for the "2023_Cricket_World_Cup" page.
 
@@ -48,7 +48,7 @@ category_names = [category["title"] for category in categories]
 
 print(f"Categories: {', '.join(category_names)}")
 ```
-# Fetching Wikipedia Pageviews using Wikipedia API
+# Fetching Pageviews of Wikipedia Page using Wikipedia API
 
 This Python script will fetch **Pageview** data using the Wikipedia API for the "Lakshadweep" page.
 
